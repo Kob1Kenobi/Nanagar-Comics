@@ -1,0 +1,740 @@
+* {
+  box-sizing: border-box;  
+  transition: all ease-in-out 250ms;
+}
+
+body, html{
+	height: 100%;
+	margin: 0;
+	font-size: 15px;
+	font-family: Candara; sans-se
+	font-weight: 400;
+	line-height: 1.8em;
+	color: #555;
+	background-color: #f4f4f4;
+}
+
+/* for (About) Cover Image*/
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* FOR (ABOUT PAGE) */
+
+
+
+
+
+
+/* for (About) Cover Image*/
+
+/*Typography*/
+
+h1 {
+  font-weight: 300;  
+  font-size: 14.7rem;
+  margin-top: 0;
+}
+
+p {
+  margin-top: 0;
+  line-height: 1.5;
+}
+
+p:last-of-type {
+  margin-bottom: 0;
+}
+
+.home-about-textbook {
+  background-color: #232323; 
+  padding: 10em;
+  width: 105%;
+  margin-left: -2.7%;
+  outline: 2px solid #00ff6c;
+  outline-offset: -2.5em;
+  color: green;
+  position: relative;
+}
+
+.home-about-textbook h1 {
+  color: #00ff6c;  
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 1.5em;
+  left: 5.4em;
+  background: #232323;
+  padding: 0 .100em;
+}
+
+  
+  .home-about-textbook h1 {
+    top: 1.52em;
+    padding: 0 .325em;
+  }
+}
+
+@media (min-width: 60rem){
+  h1 {
+    font-size: 3.6rem;    
+  }   
+  
+  .home-about-textbook h1 {
+    top: 1em;
+    padding: 0 .2em;
+  }
+}
+
+/* For About Who We Are Section */
+
+  /* For (About) Who We Are Background */
+  
+  .home-about {
+    background-image:
+    url(img/Starr.jpg);
+    background-repeat: no-repeat;
+    background-position-x: -10.25em; 
+    background-size: cover;
+    margin-left: 6em;
+    margin-top: 10em;
+    padding-bottom: 14em; 
+  }
+  
+  .home-about-textbook {
+    width: 68%;
+    padding: 9em;
+    outline-offset: -5em;
+    margin-left: -4.25%;
+    top: -12em;
+    text-align: left;
+    box-shadow: 0 0 4em 0 rgba(0,0,0,.3);
+  }
+   
+  
+  .home-about-textbox h1 {
+    top: .75em;   
+    left: 1rem;
+  }
+  
+  
+/* FOR (ABOUT) Who We Are Section Ends Here........ */
+
+/* Title For Website Template*/
+
+.title {
+  font-size: 3.6rem; 
+  margin-bottom: 1.5em;
+  font-family: Gadugi; sans-serif;  
+  text-align: center;
+  color: #000;
+}
+
+.title span {
+  font-weight: 300; 
+  display: block;
+  font-size: 0.50em;
+  font-family: Bell MT, sans-serif;
+}
+
+/* For About Title (Plant A Tree) Header */
+
+.title1 {
+  font-size: 5.1rem; 
+  margin-top: 2.8em;
+  font-family: Gadugi; sans-serif;  
+  text-align: right;
+  margin-right: .255em;
+  color: #000;
+  opacity: 0.90;
+}
+
+.title1 p {
+  display: block;
+  font-size: .8em;
+  font-family: Bell MT, sans-serif;
+}
+
+/* For About Title (Plant A Tree) Header Ends Here */
+
+
+
+/* Image slider begins*/
+
+h3 {
+	padding: 1%;
+}
+
+#wwf {
+	width: 33.2%;
+	float: left;
+	text-align: center;
+	padding-top: 5px;
+
+}
+
+h2 {
+	text-transform: uppercase;
+	text-align: center;
+	padding-bottom: 80px;
+	padding-top: 5px;
+	text-decoration: underline;
+	background-color: #333;
+	opacity: 0.95;
+	font-weight: bold;
+	padding: 20px;
+	color: #000;
+	opacity: 0.90;
+
+}
+
+.h2 {
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	text-align: center;
+	color: #000;
+	font-size: 30px;
+	letter-spacing: 12px;
+	text-transform: uppercase;
+	font: 14px/20px Arial, San-Serif;
+}
+
+/* End Image slider */
+
+
+/* Website Title ends here* */
+ 
+
+container {
+	width: 80%; 
+	margin: 0 auto;
+	opacity: 0.95;
+}
+
+
+/* Container for (About) Who We Are Box */
+
+container2 {
+	width: 80%; 
+    max-width: 70em;
+	margin: 0 auto;
+	opacity: 0.95;
+}
+
+header {
+	background: #333333;
+	width: 100%;
+	height: 65px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100;
+	opacity: 0.96;
+} 
+	
+footer {
+	background: #333333;
+	width: 100%;
+	overflow: hidden;
+	opacity: 0.90;
+	border-top: 1px solid #4D4E50;
+	text-align: left;
+	max-height: 50px;
+	opacity: 0.95;
+	text-transform: uppercase;
+	font-family: Calibri; sans-serif;
+	font-size: 13px;
+	font-weight: 400;
+}
+
+header::after {
+	content: '';
+	display: table;
+	clear: both;
+}
+nav {
+	float: right;
+	padding-right: 18px;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	float: left;
+}
+
+nav li {
+	display: inline-block;
+	margin-left: 60px;
+	margin-right: 10px;
+	padding-top: 20px;
+	position: relative;
+}
+
+logo {
+	float: left;
+	padding: 10px 0;
+}
+
+nav a {
+	color: white;
+	text-decoration: none;
+	font-family: Calibri, sans-serif;
+	text-transform: uppercase;
+	opacity: 0.85;
+}
+
+nav a:hover {
+	color: green;
+	opacity: 0.85;
+}
+
+nav a::before {
+	content: '';
+	display: block;
+	height: 3px;
+	background-color: green;
+	position: absolute;
+	width: 0%;
+	top: 0;
+	transition: cubic-bezier(0, 0.47, 0.32, 1.97) 250ms;
+}
+
+nav a:hover::before {
+	width: 100%;
+}
+
+/*Navigation ends here*/
+
+/* For (About) the cover image */
+
+
+/*body of the site bigins*/
+
+h2 {
+	text-transform: uppercase;
+	font-size: 13px;
+
+}
+
+
+/* Parallax Effect */
+
+
+/* Buttons */
+
+.button {
+	text-decoration: none;
+	text-transform: uppercase;
+	display: inline-block;
+	background: #666;
+	padding: 1em 4em;
+	color: #fff;
+	outline: 3px solid #fff;
+	transition: all ease-in-out 300ms;
+}
+
+
+.button-small {
+  font-size: 100rem;  
+}
+
+.button:hover {
+	outline: 3px solid #fff;
+	outline-offset: -4px;
+}
+
+
+.button {
+    -webkit-animation-duration: 1s;
+	-webkit-animation-delay: 1s;
+	-webkit-animation-iteration-count: infinite;
+}
+
+.button1 {
+	text-decoration: none;
+	text-transform: uppercase;
+	display: inline-block;
+	background: #666;
+	padding: 1em 4em;
+	color: #fff;
+	outline: 3px solid #fff;
+	transition: all ease-in-out 200ms;
+}
+
+.button1:hover {
+	outline: 3px solid #fff;
+	outline-offset: -4px;
+}
+
+
+.button1 {
+    -webkit-animation-duration: 1s;
+	-webkit-animation-delay: 1s;
+	-webkit-animation-iteration-count: infinite;
+}
+
+.button3 {
+    text-decoration: none;
+	text-transform: uppercase;
+	display: inline-block;
+	background: #666;
+	padding: 1em 4em;
+    margin-left: 38em;
+	color: #fff;
+	outline: 3px solid #fff;
+	transition: all ease-in-out 300ms;
+}
+
+.button3:hover {
+	outline: 3px solid #fff;
+	outline-offset: -4px;
+}
+
+
+.button3 {
+    -webkit-animation-duration: 1s;
+	-webkit-animation-delay: 1s;
+	-webkit-animation-iteration-count: infinite;
+}
+
+.button4 {
+  display: inline-block;
+  font-size: 75%;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-width: 0.7px;
+  border-style: dashed;
+  padding: .08em 1em;
+  transition: all ease-in-out 300ms;
+  margin-left: 34.50%;
+}
+
+.button4-accent {
+  color: #00ff6c;
+  border-color: #00ff6c;
+}
+
+.button4:hover {
+  outline: 3px solid #fff;
+  outline-offset: -4px;
+}
+
+.button4 {
+    -webkit-animation-duration: 1s;
+	-webkit-animation-delay: 1s;
+	-webkit-animation-iteration-count: infinite;
+}
+
+.button09 {
+  display: inline-block; 	
+  font-size: 1.15rem;
+  font-family: Calibri; sans-serif
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  border-width: 2px;
+  border-style: solid;
+  padding: .4em 1.75em;
+  margin-left: 45%;
+  margin-bottom: 30px;
+}
+
+
+.button09 {
+  color: #00ff6c;
+  border-color: #00ff6c;
+
+
+}
+
+.button09:hover,
+.button09:focus {
+  background: #00ff6c;
+  color: #232323;
+}
+
+.button09 {
+    -webkit-animation-duration: 1s;
+	-webkit-animation-delay: 1s;
+	-webkit-animation-iteration-count: infinite;
+}
+
+
+/* For Home Page Learn More Button */
+
+
+.buttonLearn {
+	text-decoration: none;
+	text-transform: uppercase;
+	display: inline-block;
+	background: #666;
+	padding: 1em 2em;
+	margin-bottom: 0.010%;
+	color: #fff;
+	outline: 3px solid #fff;
+	transition: all ease-in-out 200ms;
+}
+
+.buttonLearn:hover {
+	outline: 3px solid #fff;
+	outline-offset: -4px;
+}
+
+.buttonLearn {
+    -webkit-animation-duration: 1s;
+	-webkit-animation-delay: 1s;
+	-webkit-animation-iteration-count: infinite;
+}
+
+/* For Home Page Learn More Button Ends Here*/
+
+/* end button styles*/
+
+
+
+
+
+.pimg1, .pimg2, .pimg3, .pimg3, .pimg4, .pimg5, .pimg6, pimg7, pimg8, pimg9 {
+	position: relative;
+	background-position: center;
+	opacity: 0.80;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.pimg1 {
+	background-image: url('img/Amazon.jpg');
+	min-height: 800px;
+	background-size: cover;
+  	background-position: center;
+  	padding: 10em 0;
+  	color: #FFF;
+  	padding: 10em 0;
+}
+
+.pimg1 {
+    -webkit-animation-duration: 20s;
+	-webkit-animation-delay: 3s;
+	-webkit-animation-iteration-count: 2;
+}
+
+.pimg2 {
+	background-image: url('img/cars_pollution_large.jpg');
+	min-height: 400px;
+	background-size: cover;
+  	background-position: center;
+  	padding: 10em 0;
+  	color: #FFF;
+  	padding: 10em 0;
+}
+
+.pimg3 {
+	background-image: url('img/star.jpg');
+	min-height: 400px;
+	background-size: cover;
+  	background-position: center;
+  	padding: 10em 0;
+  	color: #FFF;
+  	padding: 10em 0;
+}
+
+
+/* For (About) */
+
+.pimg4 {
+	background-image: url('img/Collage.jpg');
+	min-height: 650px;
+	background-size: cover;
+  	background-position: center;
+  	padding: 10em 0;
+  	color: #FFF;
+  	padding: 10em 0;
+}
+
+.pimg5 {
+	background-image: url('img/8065.jpg');
+	min-height: 765px;
+	background-size: cover;
+  	background-position: center;
+  	padding: 10em 0;
+  	color: #FFF;
+  	padding: 6em 0;
+}
+
+.pimg5 {
+    -webkit-animation-duration: 10s;
+	-webkit-animation-delay: 5s;
+	-webkit-animation-iteration-count: 3;
+}
+
+.pimg6 {
+	background-image: url('img/80007.jpg');
+	min-height: 400px;
+	background-size: cover;
+  	background-position: center;
+  	padding: 10em 0;
+  	color: #FFF;
+  	padding: 10em 0;
+}
+
+.pimg7 {
+	background-image: url('img/P.jpg');
+	min-height: 400px;
+	background-size: cover;
+  	background-position: center;
+  	padding: 10em 0;
+  	color: #FFF;
+  	padding: 10em 0;
+}
+
+.pimg8 {
+	background-image: url('img/port3.jpg');
+	min-height: 400px;
+	background-size: cover;
+  	background-position: center;
+  	padding: 10em 0;
+  	color: #FFF;
+  	padding: 10em 0;
+}
+
+.pimg9 {
+	background-image: url('img/port4.jpg');
+	min-height: 400px;
+	background-size: cover;
+  	background-position: center;
+  	padding: 10em 0;
+  	color: #FFF;
+  	padding: 10em 0;
+}
+
+
+
+
+
+.section {
+	text-align: center;
+	padding: 50px 80px;
+}
+
+.section-light {
+	background-color: #f4f4f4;
+	color: #666;
+}
+
+.section-dark {
+	background-color: #282e34;
+	color: #ddd;
+}
+
+.ptext {
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	text-align: center;
+	color: #000;
+	font-size: 30px;
+	letter-spacing: 12px;
+	text-transform: uppercase;
+	opacity: 0.95;
+	font-weight: bold;
+	font: 14px/20px Arial, San-Serif;
+}
+
+.ptext .border {
+	background-color: #333;
+	color: #000;
+	padding: 20px;
+	opacity: 0.95;
+}
+
+.ptext .border.trans {
+	background-color: #333;
+	color: #000;
+	opacity: 0.95;
+}
+
+
+
+
+
+/*portfolio*/
+
+.portfolio {
+  margin: 3em 0;
+}
+
+.port-item {
+  margin: 0;
+  position: relative;
+}
+
+.port-item img {
+  display: block;   
+}
+
+.port-desc {
+  position: absolute;
+  z-index: 100;
+  bottom: 0em;
+  left: 0em;
+  right: 0em;
+  color: white;
+  background: rgba(0,0,0,.6);
+  padding-bottom: 2em;
+}
+
+.port-desc p {
+  margin: 1em;
+  margin-left: 38%; 
+}
+
+@media (min-width: 37rem) {
+    .port-item {
+      width: 50%;
+      float: left;
+    }
+}
+
+@media (min-width: 60rem) {
+    .port-item {
+      width: 33.3333334%; 
+      overflow: hidden;
+    }
+
+    .port-desc {
+      transform: translateY(150%);
+    }
+    
+    .port-item:hover .port-desc {
+      transform: translateY(0%);
+    }
+}
+
+
+
+/*Media Queries*/
+
+
+@media (min-width: 25rem){
+  h1 {
+    font-size: 2.5rem;    
+  }   
+}
+
+ 
+@media (min-width:60rem) {
+  .title {
+    font-size: 8.7rem;
+  }
+}
+  
+@media(max-width:568px){
+	.pimg1, .pimg2, .pimg3, .pimg4, .pimg5, .pimg6, .pimg7, .pimg8, .pimg9 {
+		background-attachment:scroll;
+	}
+}

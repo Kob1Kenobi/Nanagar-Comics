@@ -1,0 +1,236 @@
+* {
+  box-sizing: border-box;
+  transition: all ease-in-out 250ms;
+}
+
+
+body{
+	height: 100%;
+	margin: 0;
+	font-size: 15px;
+	font-family: Candara, sans-serif;
+	font-weight: 400;
+	color: #555;
+	background-color: #f4f4f4;
+}
+
+container {
+	width: 80%; 
+	margin: 0 auto;
+	opacity: 0.95;
+}
+
+
+header {
+	background: #333333;
+	width: 100%;
+	height: 65px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100;
+	opacity: 0.96;
+} 
+
+footer {
+	background: #333333;
+	width: 100%;
+	overflow: hidden;
+	opacity: 0.90;
+	border-top: 1px solid #4D4E50;
+	text-align: left;
+	max-height: 50px;
+	opacity: 0.95;
+	text-transform: uppercase;
+	font-family: Calibri; sans serif;
+	font-size: 13px;
+	font-weight: 400;
+}
+
+header::after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+nav {
+	float: right;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	float: left;
+}
+nav li {
+	display: inline-block;
+	margin-left: 60px;
+	margin-right: 10px;
+	padding-top: 20px;
+	position: relative;
+}
+
+
+logo {
+	float: left;
+	padding: 10px 0;
+}
+
+nav a {
+	color: white;
+	text-decoration:none;
+	font-family: Calibri, sans-serif;
+	text-transform: uppercase;
+	opacity: 0.85;
+	font-weight: bald;
+}
+
+nav a:hover {
+	color: #00ff6c;
+	opacity: 0.85;
+}
+
+nav a::before {
+	content: '';
+	display: block;
+	height: 3px;
+	background-color: #666;
+	position: absolute;
+	width: 0%;
+	top: 0;
+	transition: cubic-bezier(0, 0.47, 0.32, 1.97) 250ms;
+}
+
+nav a:hover::before {
+	width: 100%;
+}
+ /*end of nav bar */
+
+.pimg1, .pimg2, .pimg3 {
+	position: relative;
+	background-position: center;
+	opacity: 0.80;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.pimg1 {
+	background-image: url('img/headimg.jpg');
+	min-height: 800px;
+  	background-position: center;
+  	padding: 10em 0;
+  	color: #FFF;
+  	padding: 10em 0;
+}
+
+.pimg2 {
+	background-image: url('img/cars_pollution_large.jpg');
+	min-height: 400px;
+	background-size: cover;
+  	color: #FFF;
+  	padding: 7em 0;
+}
+
+.pimg3 {
+	background-image: url('img/Clean tech.jpg');
+	min-height: 400px;
+	background-size: cover;
+	color: #FFF;
+	padding: 7em 0;
+}
+
+/*typeface*/
+
+.title {
+  font-size: 3.6rem;
+  margin-bottom: 1.5em;
+  font-family: Gadugi, sans-serif;
+  text-align: center;
+  color: #000;
+ }
+
+ .title span {
+  font-weight: 300;
+  display: block;
+  font-size: .9em;
+  font-family: Bell MT, sans-serif;
+} 
+
+/* end typeface*/ 
+
+/* Image slider begins*/
+h3 {
+	padding: 1%;
+	
+}
+
+#news-image {
+	width: 33.2%;
+	float: left;
+	text-align: center;
+	padding-top: 5px;
+
+}
+
+h2 {
+	text-transform: uppercase;
+	text-align: center;
+	padding-bottom: 80px;
+	padding-top: 35px;
+	text-decoration: underline;
+
+}
+
+/* End Image slider */
+
+/*button styles*/
+
+
+.button09 {
+  display: inline-block; 	
+  font-size: 1.15rem;
+  font-family: Calibri; sans-serif
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  border-width: 2px;
+  border-style: solid;
+  padding: .4em 1.75em;
+  margin-left: 45%;
+  margin-bottom: 30px;
+}
+
+
+.button09 {
+  color: #00ff6c;
+  border-color: #00ff6c;
+
+
+}
+
+.button09:hover,
+.button09:focus {
+  background: #00ff6c;
+  color: #232323;
+}
+
+/* end button styles*/
+
+.section-dark {
+	background-color: #555;
+	color: #ddd;
+}
+
+.section-light {
+	background-color: #f4f4f4;
+	color: #555;
+}
+
+/*Media Queries*/
+@media (min-width:60rem) {
+  .title {
+    font-size: 3.7rem;
+  }
+}
